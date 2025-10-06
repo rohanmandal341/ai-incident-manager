@@ -88,7 +88,7 @@ Notification Layer (Twilio, SMTP)
 ### 🧑‍💼 CTO Dashboard & Escalation Emails
 | CTO Dashboard | CTO Email | Developer Escalation |
 |----------------|-----------|----------------------|
-| ![CTO Dashboard](https://github.com/rohanmandal341/ai-incident-manager/blob/main/incidentmanagemeent_Images/CTO_Dashboard.png) | ![CTO Mail](https://github.com/rohanmandal341/ai-incident-manager/blob/main/incidentmanagemeent_Images/CTO_Email_escalation3.jpg) | ![Dev Mail](https://github.com/rohanmandal341/ai-incident-manager/blob/main/incidentmanagemeent_Images/devloper_mail_escalation1.jpg) |
+| ![CTO Dashboard](https://github.com/rohanmandal341/ai-incident-manager/blob/main/incidentmanagemeent_Images/CTO_Dashboard.png) | ![CTO Mail](https://github.com/rohanmandal341/ai-incident-manager/blob/main/incidentmanagemeent_Images/CTO_Email_esaclation3.jpg) | ![Dev Mail](https://github.com/rohanmandal341/ai-incident-manager/blob/main/incidentmanagemeent_Images/devloper_mail_escalation1.jpg) |
 
 ---
 
