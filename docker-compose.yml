@@ -1,41 +1,32 @@
-version: "3.9"
+version: '3.8'
 
 services:
-  mysql-db:
+  mysql:
     image: mysql:8.0
-    container_name: mysql-db
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: M@nju790
       MYSQL_DATABASE: incidentmanager
+      MYSQL_USER: root
     ports:
       - "3307:3306"
-    networks:
-      - incident-network
 
   backend:
-    image: incidentmanager-backend
+    build: ./backend
     container_name: incident-manager-backend
     ports:
       - "8082:8082"
     depends_on:
-      - mysql-db
-    environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/incidentmanager
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: root
-    networks:
-      - incident-network
+      - mysql
+    env_file:
+      - .env
 
   frontend:
-    image: incident-frontend
-    container_name: incident-frontend
+    build: ./frontend
+    container_name: incident-manager-frontend
     ports:
       - "5173:80"
     depends_on:
       - backend
-    networks:
-      - incident-network
-
-networks:
-  incident-network:
-    driver: bridge
+    environment:
+      - VITE_API_BASE=http://host.docker.internal:8082
