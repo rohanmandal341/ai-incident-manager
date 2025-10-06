@@ -235,5 +235,4 @@ Then visit:
 
 ⭐ *If you liked this project, give it a star on GitHub!* ⭐
 
-```
 
