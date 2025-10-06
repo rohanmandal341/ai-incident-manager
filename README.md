@@ -224,19 +224,11 @@ Then visit:
 
 ---
 
-## 🏆 Outcome
-
-✅ Real-world enterprise-grade **Incident Response System**
-✅ Integrated **AI + DevOps + Monitoring**
-✅ Full-stack + cloud-native + automation project
-✅ Excellent portfolio project for **FAANG / top startup interviews**
-
----
 
 ## 👨‍💻 Author
 
 **Rohan Mandal**
-📧 [rohanmandal7789999@gmail.com](mailto:rohanmandal7789999@gmail.com)
+📧 [rohanmandal913@gmail.com](mailto:rohanmandal913@gmail.com)
 🌐 [GitHub Repository](https://github.com/rohanmandal341/ai-incident-manager)
 
 ---
@@ -245,13 +237,3 @@ Then visit:
 
 ```
 
----
-
-✅ This version:
-- Keeps everything beautiful & complete  
-- **Removes all real secrets**
-- Keeps it 100% **safe and professional**  
-- Ready for public GitHub profile  
-
-Would you like me to add a **“Live Demo (Deployed Link)”** section placeholder too (so you can add Render / Railway URL later)?
-```
